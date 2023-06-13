@@ -19,12 +19,12 @@
 --
 -- Creation of `oscar_db` database 
 --
-DROP SCHEMA IF EXISTS `oscar_db`;
+DROP SCHEMA `oscar_db`;
 CREATE SCHEMA `oscar_db`;
 --
 -- Table structure for table `oscar_data`
 --
-
+USE `oscar_db`;
 DROP TABLE IF EXISTS `oscar_data`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
