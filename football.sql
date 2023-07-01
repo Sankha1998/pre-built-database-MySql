@@ -2,16 +2,19 @@
 -- Table structure for table `table_standings`
 --
 DROP SCHEMA IF EXISTS `football`;
+
 CREATE SCHEMA `football`;
+
 USE `football`;
+
 DROP TABLE IF EXISTS `table_standings`;
+
 CREATE TABLE `table_standings` (
   `rid` int NOT NULL AUTO_INCREMENT,
   `league_name` varchar(100) DEFAULT NULL,
   `data` json DEFAULT NULL,
   PRIMARY KEY (`rid`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
+);
 
 --
 -- Dumping data for table `table_standings`
